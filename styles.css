@@ -1,0 +1,45 @@
+/* General setup */
+
+html {
+	font-size: 12px;
+	background-color: #F5F5DC
+}
+
+/* typography */
+
+h1, h2{
+	text-align: center;
+	color: #00008B;
+}
+
+h3 {
+	color: #00008B;;
+}
+
+p, li {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.figcenter {
+	text-align: center;
+}
+
+/* layout */
+
+nav, article, aside, footer {
+  background-color: #6495ED;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+nav li {
+  display: inline;
+  text-align: center;
+  flex: 1;
+}
