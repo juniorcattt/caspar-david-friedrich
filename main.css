@@ -1,8 +1,11 @@
 /* General setup */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@200&display=swap');
+
 html {
 	font-size: 12px;
-	background-color: #F5F5DC;
+	background-color: #F5FFFA;
 }
 
 body {
@@ -11,9 +14,18 @@ body {
 
 /* typography */
 
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
 h1, h2{
 	text-align: center;
 	color: #00008B;
+  font-family: 'Marck Script', cursive;
 }
 
 h3 {
@@ -25,24 +37,37 @@ p, li {
   line-height: 1.5;
 }
 
-.figcenter {
-	text-align: center;
-}
-
 .current {
   font-size: 1.3em;
-  color: #00FFFF;
+  color: lightblue;
 }
 
 /* layout */
 
-header {
-  background-color: #F0FFFF;
-  border: 3px solid;
+.headcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
 }
 
-nav, article, aside, footer {
-  background-color: #6495ED;
+.headbox {
+  background-color: #F0FFFF;
+  border: 3px solid;
+  height: fit-content;
+  width: fit-content;
+  padding: 0px 12px;
+  margin: 0px 18px;
+  text-align: center;
+}
+
+nav, footer {
+  background-color: #696969;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav h3 {
+  color: #FFFFFF;
 }
 
 nav ul {
@@ -56,6 +81,7 @@ nav a {
   border: 2px solid black;
   display: inline;
   text-align: center;
+  text-decoration-color: white;
   flex: 1;
 }
 
@@ -63,10 +89,42 @@ a:hover {
   text-decoration: none;
 }
 
-a:hover li h3 {
+nav a:hover h3 {
   font-size: 1.3em;
 }
 
-a:visited li h3{
-  color: black;
+.piccontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+}
+
+.picblock {
+  background-color: #F0FFFF;
+  border: 1px solid;
+  margin: 15px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.figcenter {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+footer p {
+  color: white;
+}
+
+footer img {
+  border: 3px solid white;
+  margin: 10px 25px;
+  width: 60px;
 }
