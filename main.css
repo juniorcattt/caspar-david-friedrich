@@ -1,7 +1,7 @@
 /* General setup */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat:wght@200;400;600;700&display=swap');
 
 html {
 	font-size: 12px;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* typography */
@@ -25,7 +25,7 @@ h2 {
 h1, h2{
 	text-align: center;
 	color: #00008B;
-  font-family: 'Marck Script', cursive;
+  font-style: bold;
 }
 
 h3 {
@@ -39,7 +39,7 @@ p, li {
 
 .current {
   font-size: 1.3em;
-  color: lightblue;
+  color: MediumPurple;
 }
 
 /* layout */
