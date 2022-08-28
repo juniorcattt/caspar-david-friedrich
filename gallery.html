@@ -5,8 +5,9 @@
 	<meta charset="utf-8">
 	<meta author="Nikita Parfyonov">
 	<link rel="shorcut icon" href="media/wanderer.png">
-	<link rel="stylesheet" href="normalize.css">
-	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/gallery.css">
 	<title>Галерея Каспара Давида Фридриха</title>
 </head>
 
@@ -14,32 +15,37 @@
 	<header>
 		<div class="headcontainer">
 			<div class="headbox">
-				<h1>Галерея Каспара Давида Фридриха</h1>
+				<img class="logo" src="media/wanderer480.png" alt="небольшая версия картины Странник над морем тумана">
+				<div class="title">
+					<h1>Галерея Каспара Давида Фридриха</h1>
+				</div>
 			</div>
 	</header>
 	<nav>
 		<ul>
-			<a href="index.html">
-				<li>
+			<li>
+				<a class="regular" href="index.html">
 					<h3>Биография</h3>
-				</li>
-			</a>
-			<a>
-				<li>
+				</a>
+			</li>
+			<li>
+				<a>
 					<h3 class="current">Галерея</h3>
-				</li>
-			</a>
-			<a href="favorites.html">
-				<li>
+				</a>
+			</li>
+			<li>
+				<a class="regular" href="favorites.html">
 					<h3>Избранные картины</h3>
-				</li>
-			</a>
+				</a>
+			</li>
 		</ul>
 	</nav>
 	<main>
-		<h2>Галерея</h2>
-		<div class="piccontainer">
-			<div class="picblock">
+		<div class="page-title">
+			<h2>Галерея</h2>
+		</div>
+		<div class="gallery-wrap">
+			<div class="gallery-piccontainer">
 				<figure class="figcenter">
 					<img src="media/monk.jpg">
 					<figcaption>
@@ -48,9 +54,7 @@
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
 				<figure class="figcenter">
 					<img src="media/abbat.jpg">
 					<figcaption>
@@ -58,9 +62,7 @@
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
 				<figure class="figcenter">
 					<img src="media/cross.jpg">
 					<figcaption>
@@ -68,29 +70,27 @@
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
 				<figure class="figcenter">
 					<img src="media/wanderer.png">
 					<figcaption>
 						<p><b>"Странник над морем тумана" (1818)</b></p>
+						<p> См. больше в <a href="favorites.html"> избранном </a> </p>
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
+
 				<figure class="figcenter">
 					<img src="media/Chulk.jpg">
 					<figcaption>
 						<p><b>"Меловые скалы на острове Рюген" (1818-1819)</b></p>
+						<p> См. больше в <a href="favorites.html"> избранном </a> </p>
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
+
 				<figure class="figcenter">
 					<img src="media/moonrise.jpg">
 					<figcaption>
@@ -98,9 +98,8 @@
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
+
 				<figure class="figcenter">
 					<img src="media/tree.jpg">
 					<figcaption>
@@ -108,29 +107,29 @@
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
+
 				<figure class="figcenter">
 					<img src="media/two_men.jpg">
 					<figcaption>
 						<p><b>"Двое мужчин созерцают луну" (1825-1830)</b></p>
+						<p> См. больше в <a href="favorites.html"> избранном </a> </p>
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<div class="piccontainer">
-			<div class="picblock">
+			<div class="gallery-piccontainer">
+
 				<figure class="figcenter">
 					<img src="media/stages.jpg">
 					<figcaption>
 						<p><b>"Этапы жизни" (1835)</b></p>
+						<p> См. больше в <a href="favorites.html"> избранном </a> </p>
 					</figcaption>
 				</figure>
 			</div>
-		</div>
-		<hr>
+			<hr>
 	</main>
+
 	<footer>
 		<p> Nikita Parfyonov Productions, august 2022 </p>
 		<img src="media/myself.jpg"> </img>

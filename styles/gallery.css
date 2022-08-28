@@ -1,0 +1,15 @@
+.gallery-wrap {
+	display: flex;
+	flex: 0 1;
+	flex-flow: row wrap;
+	margin: 15px 0px;
+}
+
+.gallery-piccontainer {
+	width: 33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	background-color: beige;
+}
