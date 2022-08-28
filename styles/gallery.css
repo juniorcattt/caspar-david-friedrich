@@ -2,12 +2,14 @@
 	display: flex;
 	flex: 0 1;
 	flex-flow: row wrap;
+	justify-content: center;
 	margin: 15px 0px;
 }
 
 .gallery-piccontainer {
-	width: 33%;
+	width: 47%;
 	display: flex;
+	margin: 5px;
 	justify-content: center;
 	align-items: center;
 	border: 1px solid black;

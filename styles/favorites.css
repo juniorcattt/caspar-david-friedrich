@@ -1,0 +1,10 @@
+.favorites-wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.fav-piccontainer {
+	max-width: 1000px;
+	width: 75%;
+}
